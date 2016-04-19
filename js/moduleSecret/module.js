@@ -1,6 +1,9 @@
 console.log("module.js here!");
 
-var secretNumber = 42;
-var isModule = true;
+const secretNumber = 42;
+const isModule = true;
 
-export { isModule };
+export { 
+    secretNumber as default,
+    isModule 
+};

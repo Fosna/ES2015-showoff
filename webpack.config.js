@@ -1,7 +1,11 @@
 module.exports = {
-	entry: ["./js/app.js"],
+	devtool: 'sourcemap',
+    entry: {
+        moduleSecreet: "./js/moduleSecret/index.js",
+        blockScope: "./js/blockScope/index.js"
+    },
 	output: {
-		filename: "./build/bundle.js"
+		filename: "./build/[name].bundle.js"
 	},
 
 	module: {
