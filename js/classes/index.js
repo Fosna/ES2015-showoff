@@ -10,10 +10,10 @@ console.log("simple.propVal");
 console.log(simple.propVal);
 
 var derived = new DerivedClass("Build 2016");
-console.log("derived.propVal");
+console.log("derived.showPropVal");
 derived.showPropVal();
-
-
+console.log("derived.propVal");
+derived.propVal;
 
 
 
