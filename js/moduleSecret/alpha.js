@@ -1,9 +1,9 @@
-console.log("module.js here!");
+console.log("alpha.js here!");
 
 const secretNumber = 42;
 const isModule = true;
 
 export { 
-    secretNumber as default,
+    secretNumber,
     isModule 
 };

@@ -1,9 +1,8 @@
-import * as module from "./module";
-import secretNumber from "./module";
+import * as alpha from "./alpha.js";
 
 console.log("index.js here!");
-console.log("module.isModule", module.isModule);
-console.log("module.secretNumber", module.secretNumber);
-console.log("module.default", module.default);
-console.log("secretNumber", secretNumber);
-console.log("isModule", isModule);
+console.log("alpha.isModule", alpha.isModule);
+console.log("alpha.secretNumber", alpha.secretNumber);
+
+import message from "./beta.js"
+console.log("message", message);
