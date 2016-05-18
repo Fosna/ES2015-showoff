@@ -5,4 +5,4 @@ console.log("alpha.isModule", alpha.isModule);
 console.log("alpha.secretNumber", alpha.secretNumber);
 
 import message from "./beta.js"
-console.log("message", message);
+console.log("fdsfsa", message);

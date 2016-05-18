@@ -3,7 +3,8 @@ module.exports = {
     entry: {
         moduleSecreet: "./js/moduleSecret/index.js",
         blockScope: "./js/blockScope/index.js",
-		classes: "./js/classes/index.js"
+		classes: "./js/classes/index.js",
+		polyfill: "./js/polyfill/index.js"
     },
 	output: {
 		filename: "./build/[name].bundle.js"
