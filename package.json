@@ -3,14 +3,14 @@
   "version": "1.0.0",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack-dev-server -d",
+    "start": "webpack-dev-server",
     "webpack": "webpack -d"
   },
   "author": "Fosna",
   "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.2.1",
-    "babel-loader": "^6.2.0",
+    "babel-loader": "^6.2.4",
     "babel-preset-es2015": "^6.1.18",
     "webpack": "^1.12.9",
     "webpack-dev-server": "^1.14.1"
